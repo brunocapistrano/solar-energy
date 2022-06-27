@@ -1,0 +1,24 @@
+<header>
+    <h1>Lançamento de geração mensal</h1>
+</header>
+
+
+<main>
+
+
+    <span>Unidade geradora:</span>
+    <select class="inpt" [(ngModel)]="unidade">
+        <option *ngFor="let unidade of unidades" [ngValue]="unidade">{{unidade.nome}}</option>
+    </select>
+    
+    <span>Mês / ano</span>
+    <input type="month" name="date" id="" class="inpt" [(ngModel)]="data">
+
+    <span>Total kw gerado</span>
+    <input type="text" name="kw" id="" class="inpt" [(ngModel)]="kw">
+
+
+    <button (click)="adicionarGeracao()">Cadastrar</button>
+
+
+</main>

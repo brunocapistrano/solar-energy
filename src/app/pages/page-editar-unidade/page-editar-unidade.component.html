@@ -1,0 +1,32 @@
+<header>
+    <h1>Unidades</h1>
+</header>
+
+<main>
+
+    <h3>Cadastro de Unidade Geradora</h3>
+
+    <div class="form">
+
+        <span class="txt">Apelido</span>
+        <input type="text" [(ngModel)]="nome">
+
+        <span class="txt">Local</span>
+        <input type="text" [(ngModel)]="local">
+
+        <span class="txt">Marca</span>
+        <input type="text" [(ngModel)]="marca">
+
+        <span class="txt">Modelo</span>
+        <input type="text" [(ngModel)]="modelo">
+ 
+        <div>
+            <input type="checkbox" class="inptCheck" [(ngModel)]="ativa">
+            <span class="txtCheck">Ativo</span>
+        </div>
+
+        <button (click)="atualizarUnidade()" routerLink="/unidades">Salvar</button>
+
+    </div>
+
+</main>

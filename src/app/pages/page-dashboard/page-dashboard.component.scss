@@ -1,0 +1,52 @@
+header {
+    background-color: #FFFFFF;
+    top: 0px;
+    left: 345px;
+    min-width: 1278px;
+    
+    h1 {
+        margin: 0%;
+        padding: 40px;
+        font-size: 36px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+main {
+    background-color: #FAFAFA;
+}
+
+.informacoesDoGrafico {
+    display: flex;
+    position: absolute;
+    padding: 20px;
+
+    .cards {
+
+        margin-right: 20px;
+        padding: 15px 25px 5px 25px;
+        border: 1px solid gray;
+        border-radius: 8px;
+        text-align: center;
+        
+        color: gray;
+        background-color: white;
+        
+        span {
+            font-size: 19px;
+        }
+
+        h3 {
+            margin: 0;
+            padding: 10px;
+            font-size: 40px;
+        }
+    }
+
+    .cards:hover {
+        border: 1px solid #3751FF;
+        color: #3751FF;
+
+    }
+
+}

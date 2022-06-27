@@ -1,0 +1,34 @@
+<header>
+    <h1>Unidades</h1>
+</header>
+
+<main>
+    <h3>Lista de Unidades</h3>
+
+    <table>
+
+        <thead>
+            <td>ID</td>
+            <td>Apelido</td>
+            <td>Local</td>
+            <td>Marca</td>
+            <td>Modelo</td>
+            <td></td>
+            <td></td>
+        </thead>
+        
+        <tbody>
+            <tr *ngFor="let unidade of unidadesExistentes">
+                <td>{{unidade.id}}</td>
+                <td>{{unidade.nome}}</td>
+                <td>{{unidade.local}}</td>
+                <td>{{unidade.marca}}</td>
+                <td>{{unidade.modelo}}</td>
+                <td><button class="btnEditar" routerLink="/editar-unidade/:id">Editar</button></td>
+                <td><button class="btnRemover" (click)="deletarUnidade(unidade)">Remover</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button class="btnNovo" routerLink="/nova-unidade">Nova unidade</button>
+</main>

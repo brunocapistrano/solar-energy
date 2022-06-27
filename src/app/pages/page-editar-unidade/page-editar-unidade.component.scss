@@ -1,0 +1,64 @@
+header {
+    background-color: #FFFFFF;
+    top: 0px;
+    left: 345px;
+    min-width: 1278px;
+
+    h1 {
+        margin: 0%;
+        padding: 40px;
+        font-size: 36px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 60px;
+
+    h3 {
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        
+        .txt {
+            margin-bottom: 10px;
+        }
+
+        input {
+            margin-bottom: 20px;
+            border: 1px solid #53575D;
+            border-radius: 4px;
+            background: #FBFCFF;
+            height: 40px;
+            width: 280px;
+        }
+
+        .inptCheck {
+            border: 1px solid #000000;
+            width: 29px;
+            height: 28px;
+        }
+
+        button {
+            background-color: #4C5DF1;
+            border: none;
+            border-radius: 20px;
+            width: 250px;
+            height: 59px;
+            color: white;
+            font-size: 18px;
+            margin-top: 40px;
+        }
+        
+    }
+}

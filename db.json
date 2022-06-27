@@ -1,0 +1,48 @@
+{
+  "unidades": [
+    {
+      "ativa": true,
+      "local": "Rua 3",
+      "marca": "Resun",
+      "modelo": "144",
+      "nome": "Painel 1",
+      "id": 1
+    },
+    {
+      "ativa": false,
+      "local": "Rua 2",
+      "marca": "Resun",
+      "modelo": "44",
+      "nome": "Painel 2",
+      "id": 2
+    },
+    {
+      "ativa": false,
+      "local": "Rua 1",
+      "marca": "Resun",
+      "modelo": "442",
+      "nome": "Painel 3",
+      "id": 3
+    }
+  ],
+  "geracoes": [
+    {
+      "data": "2022-01",
+      "idUnidade": 1,
+      "kw": "55",
+      "id": 1
+    },
+    {
+      "data": "2022-02",
+      "idUnidade": 2,
+      "kw": "66",
+      "id": 2
+    },
+    {
+      "data": "2022-03",
+      "idUnidade": 3,
+      "kw": "77",
+      "id": 3
+    }
+  ]
+}
